@@ -4,4 +4,7 @@
 -- | 302750   |
 -- +----------+
 
+select count(listing_id)
+from reviews
+
 
