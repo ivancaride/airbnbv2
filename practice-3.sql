@@ -13,3 +13,7 @@
 -- | Beverly                |
 
 
+
+select neighborhood 
+from listings
+group by neighborhood limit 10
