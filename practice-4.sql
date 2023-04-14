@@ -4,4 +4,6 @@
 -- | 272      |
 -- +----------+
 
+select count (url)
+from listings where neighborhood = "Lincoln Park"
 
