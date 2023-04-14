@@ -20,3 +20,5 @@
 -- | https://www.airbnb.com/rooms/25682427 | 16           |
 
 
+select url, accommodates
+from listings where accommodates > 15
